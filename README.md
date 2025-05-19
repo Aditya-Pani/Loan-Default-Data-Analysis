@@ -8,7 +8,7 @@ This Power BI project analyzes loan data to uncover insights about default rates
 
 ## 🧩 Key Features
 
-- **Dataflow Integration** via Power BI Service
+- **Data Ingestion** via MS SQL Server
 - **Data Profiling & Cleaning** in Power Query Editor
 - **DAX Measures** including:
   - `SUMX`, `FILTER`, `ISBLANK`
@@ -37,12 +37,10 @@ This Power BI project analyzes loan data to uncover insights about default rates
 
 ## 🛠️ How It Was Built
 
-1. **Data Source**: Imported from SQL Server into Power BI Dataflow.
+1. **Data Source**: Imported from SQL Server.
 2. **Power Query Editor**: Used for data types, profiling, renaming columns.
 3. **DAX Calculations**: Custom measures to derive business metrics.
 4. **Report Pages**: Multiple pages showcasing different slices of the data.
-5. **Publishing**: Report published to Power BI Service.
-6. **Scheduled Refresh**: Enabled via Service for automated updates.
 
 ---
 
@@ -56,11 +54,9 @@ This Power BI project analyzes loan data to uncover insights about default rates
 ## 🚀 How to Use
 
 1. Open `Loan Default.pbix` in **Power BI Desktop**.
-2. Ensure you have access to the **SQL Server or dataflow** used.
-3. Refresh the dataset or configure **schedule refresh**.
-4. Explore visuals and customize DAX measures as needed.
-5. Publish to **Power BI Service** and share with stakeholders.
-
+2. Ensure you have access to the **SQL Server** used.
+3. Explore visuals and customize DAX measures as needed.
+4. 
 ---
 
 ## 📤 Report Publishing & Sharing
@@ -68,15 +64,6 @@ This Power BI project analyzes loan data to uncover insights about default rates
 - Report published to Power BI Service.
 - Shared access with relevant viewers.
 - Scheduled and incremental refreshes configured.
-
----
-
-## 📞 Contact
-
-For feedback or collaboration:
-
-- 👤 **Aditya Pani**
-- 📧 [Your email or LinkedIn/GitHub here]
 
 ---
 
